@@ -6,7 +6,6 @@ struct AddAlarmView: View {
     @StateObject private var viewModel = AddAlarmViewModel()
     @Environment(\.presentationMode) var presentationMode
     @Environment(\.modelContext) var modelContext
-
     var alarmData: ((_ alarmData: Alarm) -> Void)
     var body: some View {
         
